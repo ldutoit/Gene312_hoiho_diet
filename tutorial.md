@@ -40,7 +40,7 @@ improve this tutorial for the groups coming after you.
 ## Analyses summary
 
 We will compare six samples from Otago Peninsula to six samples from the
-Caitlins. Those are fresh poo samples from adult penguins that were
+Catlins. Those are fresh poo samples from adult penguins that were
 collected for [Young et al. 2020, *Wildlife
 Research*](https://www.publish.csiro.au/WR/WR19246) project.
 
@@ -56,11 +56,11 @@ sample can be summarised in an Amplicon Sequence Variant (ASV) table:
                 Seq_1   Seq_2   Seq3
     peninsula_1   0       10      20
     peninsula_2   2       20      40
-    caitlins_1    20      0       0
-    caitlins_2    20      0       0
+    catlins_1    20      0       0
+    catlins_2    20      0       0
 
 In this example, Seq\_2 and Seq\_3 are common in the Peninsula samples,
-but rare in the Caitlins while it is the opposite for Seq\_1.
+but rare in the Catlins while it is the opposite for Seq\_1.
 
 We’ll then assign species ID to those sequences using a reference
 database. You’ll obtain a table with species ID as below:
@@ -68,8 +68,8 @@ database. You’ll obtain a table with species ID as below:
                   sp1    sp2      sp3
     peninsula_1   0       10      20
     peninsula_2   2       20      40
-    caitlins_1    20      0       0
-    caitlins_2    20      0       0
+    catlins_1    20      0       0
+    catlins_2    20      0       0
 
 This table can then be summarised in a few different ways to answer your
 questions of interest. Manipulating this table can be done in R or in
@@ -247,8 +247,8 @@ sequence variant it is found in each sample.
                 Seq_1   Seq_2   Seq3
     peninsula_1   0       10      20
     peninsula_2   2       20      40
-    caitlins_1    20      0       0
-    caitlins_1    20      0       0
+    catlins_1    20      0       0
+    catlins_1    20      0       0
 
 They appear when two different sequences get hybridized together during
 sample preparation.
